@@ -1,0 +1,82 @@
+[
+    {
+        "groupID":"1",
+        "name": "iOS",
+        "photoPath": "u10",
+        "peopleNumber": 100,
+        "introduction": "afwfjqjwfoqjfowjeoq庄"
+    },
+    {
+ "groupID":"2",
+ "name": "iOS2",
+ "photoPath": "u10",
+ "peopleNumber": 1030,
+ "introduction": "afwfjqjwfawefqwffoqjfowjeoq庄"
+    },
+    {
+ "groupID":"3",
+ "name": "iOS3",
+ "photoPath": "u10",
+ "peopleNumber": 200,
+ "introduction": "afwfjqjwfofqewrqreqreqqjfowjeoq庄"
+    },
+    {
+ "groupID":"4",
+ "name": "iOS4",
+ "photoPath": "u10",
+ "peopleNumber": 200,
+ "introduction": "afwfjqjwfoqjfowjeoq庄"
+    },
+    {
+ "groupID":"5",
+ "name": "iOS5",
+ "photoPath": "u10",
+ "peopleNumber": 100,
+ "introduction": "afwfjqjwfoqjfowjeoq庄"
+    },
+    {
+ "groupID":"6",
+ "name": "iOS6",
+ "photoPath": "u10",
+ "peopleNumber": 100,
+ "introduction": "afwfjqjwfoqjfowjeoq庄"
+    },
+    {
+ "groupID":"7",
+ "name": "iOS7",
+ "photoPath": "u10",
+ "peopleNumber": 100,
+ "introduction": "afwfjqjwfoqjfowjeoq庄"
+    },
+    {
+ "groupID":"8",
+ "name": "iOS8",
+ "photoPath": "u10",
+ "peopleNumber": 100,
+ "introduction": "afwfjqjwfoqjfowjeoq庄"
+    },
+    {
+ "groupID":"9",
+ "name": "iOS9",
+ "photoPath": "u10",
+ "peopleNumber": 100,
+ "introduction": "afwfjqjwfoqjfowjeoq庄"
+
+    },
+    {
+ "groupID":"10",
+ "name": "iOS10",
+ "photoPath": "u10",
+ "peopleNumber": 100,
+ "introduction": "afwfjqjwfoqjfowjeoq庄"
+
+    },
+    {
+ "groupID":"10",
+ "name": "iOS10",
+ "photoPath": "u10",
+ "peopleNumber": 100,
+ "introduction": "afwfjqjwfoqjfowjeoq庄"
+
+    }
+]

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="207"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nFC-Eu-sUE">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="103.5"/>
+                    <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="我喜欢的" image="喜欢"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPm-5P-j5v">
+                    <rect key="frame" x="80" y="0.0" width="79.5" height="103.5"/>
+                    <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="热门超市" image="热门"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMy-0c-iHO">
+                    <rect key="frame" x="240" y="0.0" width="80" height="103.5"/>
+                    <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="分类" image="分类"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X59-u3-3f3">
+                    <rect key="frame" x="0.0" y="103.5" width="80" height="103.5"/>
+                    <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="我常买的" image="买"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQE-Qf-4gU">
+                    <rect key="frame" x="80" y="103.5" width="80" height="103.5"/>
+                    <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="关注超市" image="超市"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onf-EO-aGx">
+                    <rect key="frame" x="160" y="103.5" width="80" height="103.5"/>
+                    <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="关注商品" image="商品"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sCG-0R-5k1">
+                    <rect key="frame" x="240" y="103.5" width="80" height="103.5"/>
+                    <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="关注商品" image="收藏"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mSY-38-DBC">
+                    <rect key="frame" x="160" y="0.0" width="79.5" height="103.5"/>
+                    <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="促销专区" image="促销 "/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="onf-EO-aGx" secondAttribute="bottom" id="0QE-dr-8DU"/>
+                <constraint firstItem="X59-u3-3f3" firstAttribute="width" secondItem="JQE-Qf-4gU" secondAttribute="width" id="3SB-rg-WPA"/>
+                <constraint firstAttribute="bottom" secondItem="X59-u3-3f3" secondAttribute="bottom" id="AIn-F5-p5S"/>
+                <constraint firstItem="sCG-0R-5k1" firstAttribute="leading" secondItem="onf-EO-aGx" secondAttribute="trailing" id="Csu-xY-CwK"/>
+                <constraint firstItem="JQE-Qf-4gU" firstAttribute="leading" secondItem="X59-u3-3f3" secondAttribute="trailing" id="DQa-ue-Nmm"/>
+                <constraint firstItem="dMy-0c-iHO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FrB-tN-heI"/>
+                <constraint firstItem="onf-EO-aGx" firstAttribute="width" secondItem="sCG-0R-5k1" secondAttribute="width" id="GRw-jy-CAO"/>
+                <constraint firstAttribute="bottom" secondItem="JQE-Qf-4gU" secondAttribute="bottom" id="Moc-0s-vjB"/>
+                <constraint firstItem="sCG-0R-5k1" firstAttribute="height" secondItem="dMy-0c-iHO" secondAttribute="height" id="NeJ-Jf-EqA"/>
+                <constraint firstAttribute="trailing" secondItem="dMy-0c-iHO" secondAttribute="trailing" id="PDq-pn-b81"/>
+                <constraint firstItem="JQE-Qf-4gU" firstAttribute="height" secondItem="CPm-5P-j5v" secondAttribute="height" id="PZK-yh-MwE"/>
+                <constraint firstItem="onf-EO-aGx" firstAttribute="top" secondItem="mSY-38-DBC" secondAttribute="bottom" id="Qiz-N9-xAF"/>
+                <constraint firstItem="mSY-38-DBC" firstAttribute="leading" secondItem="CPm-5P-j5v" secondAttribute="trailing" constant="0.5" id="SwS-oS-iOT"/>
+                <constraint firstItem="JQE-Qf-4gU" firstAttribute="width" secondItem="onf-EO-aGx" secondAttribute="width" id="TrM-5D-Wwu"/>
+                <constraint firstItem="mSY-38-DBC" firstAttribute="width" secondItem="dMy-0c-iHO" secondAttribute="width" id="UpG-Uq-Mr4"/>
+                <constraint firstItem="mSY-38-DBC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ViP-gd-ifn"/>
+                <constraint firstItem="JQE-Qf-4gU" firstAttribute="top" secondItem="CPm-5P-j5v" secondAttribute="bottom" id="XsJ-lb-DNE"/>
+                <constraint firstItem="X59-u3-3f3" firstAttribute="top" secondItem="nFC-Eu-sUE" secondAttribute="bottom" id="YHO-qN-aru"/>
+                <constraint firstItem="sCG-0R-5k1" firstAttribute="top" secondItem="dMy-0c-iHO" secondAttribute="bottom" id="YZj-Xu-FE7"/>
+                <constraint firstItem="onf-EO-aGx" firstAttribute="leading" secondItem="JQE-Qf-4gU" secondAttribute="trailing" id="Ztw-h6-E9Q"/>
+                <constraint firstAttribute="bottom" secondItem="sCG-0R-5k1" secondAttribute="bottom" id="bnO-IV-og6"/>
+                <constraint firstItem="X59-u3-3f3" firstAttribute="height" secondItem="nFC-Eu-sUE" secondAttribute="height" id="dsJ-N8-VYa"/>
+                <constraint firstItem="CPm-5P-j5v" firstAttribute="width" secondItem="mSY-38-DBC" secondAttribute="width" id="ixN-9o-OYK"/>
+                <constraint firstItem="CPm-5P-j5v" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kga-yY-ZVh"/>
+                <constraint firstItem="nFC-Eu-sUE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="mMV-B4-r7x"/>
+                <constraint firstItem="onf-EO-aGx" firstAttribute="height" secondItem="mSY-38-DBC" secondAttribute="height" id="oTl-we-aZa"/>
+                <constraint firstItem="dMy-0c-iHO" firstAttribute="leading" secondItem="mSY-38-DBC" secondAttribute="trailing" constant="0.5" id="pVY-lW-o9X"/>
+                <constraint firstAttribute="trailing" secondItem="sCG-0R-5k1" secondAttribute="trailing" id="pyV-Of-UuS"/>
+                <constraint firstItem="JQE-Qf-4gU" firstAttribute="leading" secondItem="X59-u3-3f3" secondAttribute="trailing" id="sbV-wC-2M2"/>
+                <constraint firstItem="nFC-Eu-sUE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="tQJ-5S-joo"/>
+                <constraint firstItem="nFC-Eu-sUE" firstAttribute="width" secondItem="CPm-5P-j5v" secondAttribute="width" id="vgq-3P-npL"/>
+                <constraint firstItem="CPm-5P-j5v" firstAttribute="leading" secondItem="nFC-Eu-sUE" secondAttribute="trailing" constant="0.5" id="yD4-U4-0Mj"/>
+                <constraint firstItem="X59-u3-3f3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zcA-tN-RQX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-139" y="-164.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="买" width="48" height="48"/>
+        <image name="促销 " width="48" height="48"/>
+        <image name="分类" width="48" height="48"/>
+        <image name="商品" width="48" height="48"/>
+        <image name="喜欢" width="48" height="48"/>
+        <image name="收藏" width="48" height="48"/>
+        <image name="热门" width="48" height="48"/>
+        <image name="超市" width="48" height="48"/>
+    </resources>
+</document>

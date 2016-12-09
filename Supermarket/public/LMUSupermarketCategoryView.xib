@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LMUSuperMarketCategoryView">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gfl-Pl-n8Z">
+                    <rect key="frame" x="0.0" y="0.0" width="139.5" height="40"/>
+                    <state key="normal" title="详情" backgroundImage="personal_back_image">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o0g-mJ-bhq">
+                    <rect key="frame" x="139.5" y="8" width="1" height="24"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="4s7-3D-NNa"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AkF-mI-PHZ">
+                    <rect key="frame" x="140.5" y="0.0" width="139" height="40"/>
+                    <state key="normal" title="评论" backgroundImage="personal_back_image">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="o0g-mJ-bhq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="3KR-Cm-EKc"/>
+                <constraint firstAttribute="bottom" secondItem="o0g-mJ-bhq" secondAttribute="bottom" constant="8" id="9Oa-Q6-c8s"/>
+                <constraint firstItem="o0g-mJ-bhq" firstAttribute="leading" secondItem="Gfl-Pl-n8Z" secondAttribute="trailing" id="BrG-NU-TmA"/>
+                <constraint firstAttribute="bottom" secondItem="Gfl-Pl-n8Z" secondAttribute="bottom" id="aLN-Ty-Utc"/>
+                <constraint firstItem="AkF-mI-PHZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="aom-c0-Z4U"/>
+                <constraint firstItem="AkF-mI-PHZ" firstAttribute="leading" secondItem="o0g-mJ-bhq" secondAttribute="trailing" id="fgP-eO-hcE"/>
+                <constraint firstAttribute="bottom" secondItem="AkF-mI-PHZ" secondAttribute="bottom" id="hPA-BD-Od6"/>
+                <constraint firstAttribute="trailing" secondItem="AkF-mI-PHZ" secondAttribute="trailing" id="jRE-af-Ln8"/>
+                <constraint firstItem="Gfl-Pl-n8Z" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kjy-NW-ASd"/>
+                <constraint firstItem="Gfl-Pl-n8Z" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="tOv-TH-kzt"/>
+                <constraint firstItem="AkF-mI-PHZ" firstAttribute="width" secondItem="Gfl-Pl-n8Z" secondAttribute="width" id="yXI-BG-THy"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="detailButton" destination="Gfl-Pl-n8Z" id="RAo-Rz-h8F"/>
+                <outlet property="discussButton" destination="AkF-mI-PHZ" id="JlT-eg-7eu"/>
+            </connections>
+            <point key="canvasLocation" x="228" y="-102"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="personal_back_image" width="320" height="200"/>
+    </resources>
+</document>
