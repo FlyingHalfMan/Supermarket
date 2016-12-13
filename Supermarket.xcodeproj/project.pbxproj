@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F36DFB716E36CDBADA8166B /* libPods-Supermarket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0234D9814A32D2AFD4DC33BD /* libPods-Supermarket.a */; };
 		460112871DE85D07001FEE47 /* LMUCartTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 460112861DE85D07001FEE47 /* LMUCartTableView.m */; };
 		4601128B1DE85D93001FEE47 /* LMUCartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4601128A1DE85D93001FEE47 /* LMUCartTableViewCell.xib */; };
 		460112951DEA9E54001FEE47 /* LMUSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 460112941DEA9E54001FEE47 /* LMUSearchViewController.m */; };
@@ -136,11 +135,11 @@
 		4FEDE89E1DF856B300858C5B /* CommorityCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDE89D1DF856B300858C5B /* CommorityCategoryViewModel.m */; };
 		4FEDE8A11DF9904300858C5B /* LMULoginWithVerifyCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDE8A01DF9904300858C5B /* LMULoginWithVerifyCodeViewController.m */; };
 		4FEDE8A31DF9A15000858C5B /* FunctionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FEDE8A21DF9A15000858C5B /* FunctionView.xib */; };
+		8FA84B0EBB8A78585504A616 /* libPods-Supermarket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EF0B71BEB75CAE01BD8B89 /* libPods-Supermarket.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0234D9814A32D2AFD4DC33BD /* libPods-Supermarket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Supermarket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3739CE7EECC8C80F8E0A7025 /* Pods-Supermarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Supermarket.release.xcconfig"; path = "Pods/Target Support Files/Pods-Supermarket/Pods-Supermarket.release.xcconfig"; sourceTree = "<group>"; };
+		09F2B1B3E4C08CC5D73BA3B8 /* Pods-Supermarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Supermarket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Supermarket/Pods-Supermarket.debug.xcconfig"; sourceTree = "<group>"; };
 		460112851DE85D07001FEE47 /* LMUCartTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMUCartTableView.h; path = ShoppingCart/LMUCartTableView.h; sourceTree = "<group>"; };
 		460112861DE85D07001FEE47 /* LMUCartTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMUCartTableView.m; path = ShoppingCart/LMUCartTableView.m; sourceTree = "<group>"; };
 		4601128A1DE85D93001FEE47 /* LMUCartTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LMUCartTableViewCell.xib; path = ShoppingCart/LMUCartTableViewCell.xib; sourceTree = "<group>"; };
@@ -362,7 +361,8 @@
 		4FEDE89F1DF9904300858C5B /* LMULoginWithVerifyCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMULoginWithVerifyCodeViewController.h; path = login/LMULoginWithVerifyCodeViewController.h; sourceTree = "<group>"; };
 		4FEDE8A01DF9904300858C5B /* LMULoginWithVerifyCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMULoginWithVerifyCodeViewController.m; path = login/LMULoginWithVerifyCodeViewController.m; sourceTree = "<group>"; };
 		4FEDE8A21DF9A15000858C5B /* FunctionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FunctionView.xib; sourceTree = "<group>"; };
-		7812A974CBAE1F0A20CAA7E0 /* Pods-Supermarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Supermarket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Supermarket/Pods-Supermarket.debug.xcconfig"; sourceTree = "<group>"; };
+		B3EF0B71BEB75CAE01BD8B89 /* libPods-Supermarket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Supermarket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E388003E06A3637E311CF39F /* Pods-Supermarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Supermarket.release.xcconfig"; path = "Pods/Target Support Files/Pods-Supermarket/Pods-Supermarket.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -370,17 +370,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F36DFB716E36CDBADA8166B /* libPods-Supermarket.a in Frameworks */,
+				8FA84B0EBB8A78585504A616 /* libPods-Supermarket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A738DC3A3FE6FA19CA9B31D /* Frameworks */ = {
+		031C84C423325063686928EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0234D9814A32D2AFD4DC33BD /* libPods-Supermarket.a */,
+				B3EF0B71BEB75CAE01BD8B89 /* libPods-Supermarket.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -516,8 +516,8 @@
 			children = (
 				46213ADD1DCAECC8009594B8 /* Supermarket */,
 				46213ADC1DCAECC7009594B8 /* Products */,
-				5367A0396E414C48A73D082F /* Pods */,
-				3A738DC3A3FE6FA19CA9B31D /* Frameworks */,
+				AD4408993069106EA5D7C50F /* Pods */,
+				031C84C423325063686928EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1295,11 +1295,11 @@
 			name = "商品分类";
 			sourceTree = "<group>";
 		};
-		5367A0396E414C48A73D082F /* Pods */ = {
+		AD4408993069106EA5D7C50F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7812A974CBAE1F0A20CAA7E0 /* Pods-Supermarket.debug.xcconfig */,
-				3739CE7EECC8C80F8E0A7025 /* Pods-Supermarket.release.xcconfig */,
+				09F2B1B3E4C08CC5D73BA3B8 /* Pods-Supermarket.debug.xcconfig */,
+				E388003E06A3637E311CF39F /* Pods-Supermarket.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1311,12 +1311,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46213AF21DCAECC8009594B8 /* Build configuration list for PBXNativeTarget "Supermarket" */;
 			buildPhases = (
-				78A67D199EC6A7795DB0A914 /* Check Pods Manifest.lock */,
+				0D57F9D59FBC4514A0328606 /* 📦 Check Pods Manifest.lock */,
 				46213AD71DCAECC7009594B8 /* Sources */,
 				46213AD81DCAECC7009594B8 /* Frameworks */,
 				46213AD91DCAECC7009594B8 /* Resources */,
-				0E168CCA4B73D32B225F2C27 /* Embed Pods Frameworks */,
-				8C80892E178367EC6E6D381E /* Copy Pods Resources */,
+				55FEDF2B674342B36A9CB9CA /* 📦 Embed Pods Frameworks */,
+				12A4DC59CB8AD46EFCBAAED2 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1421,29 +1421,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0E168CCA4B73D32B225F2C27 /* Embed Pods Frameworks */ = {
+		0D57F9D59FBC4514A0328606 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Supermarket/Pods-Supermarket-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		78A67D199EC6A7795DB0A914 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1451,19 +1436,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		8C80892E178367EC6E6D381E /* Copy Pods Resources */ = {
+		12A4DC59CB8AD46EFCBAAED2 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Supermarket/Pods-Supermarket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55FEDF2B674342B36A9CB9CA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Supermarket/Pods-Supermarket-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1673,7 +1673,7 @@
 		};
 		46213AF31DCAECC8009594B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7812A974CBAE1F0A20CAA7E0 /* Pods-Supermarket.debug.xcconfig */;
+			baseConfigurationReference = 09F2B1B3E4C08CC5D73BA3B8 /* Pods-Supermarket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QXMXC63R2L;
@@ -1690,7 +1690,7 @@
 		};
 		46213AF41DCAECC8009594B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3739CE7EECC8C80F8E0A7025 /* Pods-Supermarket.release.xcconfig */;
+			baseConfigurationReference = E388003E06A3637E311CF39F /* Pods-Supermarket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QXMXC63R2L;

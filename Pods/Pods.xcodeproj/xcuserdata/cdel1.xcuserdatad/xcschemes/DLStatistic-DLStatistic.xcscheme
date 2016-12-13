@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '3BA3BEE426E48A56B2E01BB9'
+               BlueprintIdentifier = 'B4B48F700599FE24888B1E6CCF41B630'
                BlueprintName = 'DLStatistic-DLStatistic'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'DLStatistic.bundle'>

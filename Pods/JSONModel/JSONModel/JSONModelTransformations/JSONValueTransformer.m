@@ -189,7 +189,7 @@ extern BOOL isNull(id value)
     dispatch_once(&onceInput, ^{
         inputDateFormatter = [[NSDateFormatter alloc] init];
         [inputDateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"]];
-        [inputDateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss.sss"];
+        [inputDateFormatter setDateFormat:@"yyyy-MM-dd'T'HHmmssZZZ"];
     });
     return inputDateFormatter;
 }
@@ -207,7 +207,7 @@ extern BOOL isNull(id value)
     dispatch_once(&onceOutput, ^{
         outputDateFormatter = [[NSDateFormatter alloc] init];
         [outputDateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"]];
-        [outputDateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss.sss"];
+        [outputDateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ssZZZ"];
     });
     return [outputDateFormatter stringFromDate:date];
 }

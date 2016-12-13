@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '39CF5634067C0C6C8130AFFD'
+               BlueprintIdentifier = '13B0AFE94FAEBF1EC683AA090A72A832'
                BlueprintName = 'BaseWithRAC'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libBaseWithRAC.a'>

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '3F19FECD4634637A9E0B07BE'
+               BlueprintIdentifier = '0DC22F9F84149D99BCB0DBD7CC244752'
                BlueprintName = 'DLUIKit-DLUIKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'DLUIKit.bundle'>

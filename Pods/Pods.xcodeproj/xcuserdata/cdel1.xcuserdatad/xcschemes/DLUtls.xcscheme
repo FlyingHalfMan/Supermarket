@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '122A97658CCA86E5C9EF0CD4'
+               BlueprintIdentifier = 'F62B6FCD5D36C84C9E9C99352C7EC223'
                BlueprintName = 'DLUtls'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libDLUtls.a'>

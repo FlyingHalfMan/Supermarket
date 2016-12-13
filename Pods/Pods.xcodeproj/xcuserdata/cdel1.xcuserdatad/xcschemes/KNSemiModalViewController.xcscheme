@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '12358CBDDC1A7C48BDE8CF11'
+               BlueprintIdentifier = '67611D25A8610BC00C4305864149B488'
                BlueprintName = 'KNSemiModalViewController'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libKNSemiModalViewController.a'>
